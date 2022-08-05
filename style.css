@@ -1,0 +1,269 @@
+html, body
+{
+    padding:12px 50px;
+    background-color: white;
+}
+
+/*HEADER*/
+div>section:nth-child(1)
+{
+    background-color: white;
+    height: 60px;
+    width: 100%;
+   
+}
+
+div>section:nth-child(1)>nav>div:nth-child(1)
+{
+     background-color: white;
+     height: 60px;
+     width: 15%;
+     float: left;
+}
+div>section:nth-child(1)>nav>div:nth-child(1)>img
+{
+   
+     height: 35px;
+     width: 105px;
+     margin-top: 10px;
+     text-align: center;
+     
+}
+div>section:nth-child(1)>nav>div:nth-child(2)
+{
+    
+    background-color: white;
+    height: 60px;
+    width: 60%;
+    float: left;
+    
+   
+}
+
+div>section:nth-child(1)>nav>div:nth-child(3)
+{
+    
+    background-color: white;
+    height: 60px;
+    width:15%;
+    float: right;
+    margin-right: 5%;
+   
+}
+
+div>section:nth-child(1)>nav>div:nth-child(3) div
+{
+    
+    background-color:white;
+    height: 60px;
+    width: 40%;
+    margin-left: 10%;
+    float: left;
+    line-height: 60px;
+    text-align: center;
+   
+}
+
+div>section:nth-child(1)>nav>div:nth-child(3) div:nth-child(1)
+{
+    
+    margin-top: 6px;
+    height: 40px;
+    
+}
+div>section:nth-child(1)>nav>div:nth-child(3) div:nth-child(1)>svg
+{
+    
+
+    height: 20px;
+    width: 20px;
+}
+div>section:nth-child(1)>nav>div:nth-child(3) div:nth-child(2)
+{
+    
+    margin-left: -5%;
+    
+}
+div>section:nth-child(1)>nav>div:nth-child(3) div:nth-child(2)>button
+{
+    
+    margin-top: 10px;
+    height: 32px;
+    width: 120px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-family: Poppins;
+    
+}
+
+nav>div:nth-child(2)>ul
+{
+    list-style-type: none;
+    background-color: white;
+    height: 60px;
+    width: 60%;
+    margin-top: 0px;
+    margin-left: 12%;
+    text-align: center;
+    position: relative;
+    
+}
+
+nav>div:nth-child(2)>ul li
+{
+     background-color: white;
+     float: left;
+     height: 100%;
+     width: 17.5%;
+     font-family: Orbitron;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 60px; 
+     text-align: center;
+   
+     
+}  
+
+nav>div:nth-child(2)>ul li:nth-child(1)::after
+{
+     position:absolute;
+     content: "";
+     width: 30px;
+     height: 2px;
+     background-color: black;
+     left: 0px;
+     margin-left: 13.5%;
+     margin-top: 50px;
+     
+   
+     
+} 
+
+/* END OF HEADER*/
+
+/*MAIN CONTAINER*/
+div>section:nth-child(2)
+{
+    background-color:white;
+
+    width: 100%;
+    height: fit-content;
+    position:relative;
+    top:50px;
+   
+}
+
+div>section:nth-child(2) .hero-container>div:first-of-type
+{
+   position:absolute;
+   top:0px;
+
+ 
+}
+
+div>section:nth-child(2) .hero-container>div:first-of-type>img
+{
+   width:345px;
+   height:425px;
+}
+
+.square
+{
+    position:absolute;
+    top:250px;
+    left:175px;
+  
+} 
+
+.square>img
+{
+    width:210px;
+    height:210px;
+} 
+
+.hero-container-right
+{
+    width: 60%;
+    position: relative;
+    left: 40%;
+  
+    margin-top: 0%;
+    background-color: white;
+}
+.hero-container-right>h1{
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 45px;
+    margin-top: -25px;
+    background-color: white;
+}
+.hero-container-right>p{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 12px;
+    width: 70%;
+    margin-left: 15%;
+    color: rgb(93, 93, 93);
+}
+.hero-container-right>div:nth-of-type(1)
+{
+   
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.hero-container-right>div:nth-of-type(1)>button:nth-child(1)
+{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 20px;
+    text-align: center;
+    font-family: Orbitron;
+}
+
+.hero-container-right>div:nth-of-type(1)>button:nth-child(2)
+{
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px 5px;
+    text-align: center;
+    font-family: Orbitron;
+    color: white;
+    margin-left: 20px;
+}
+
+.hero-container-right>div:nth-of-type(2)
+{
+   
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+    margin-top: 90px;
+
+}
+
+.hero-container-right>div:nth-of-type(2)>h4
+{
+   
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: rgb(93, 93, 93);
+}
+
+.hero-container-right>div:nth-of-type(2)>div span>img
+{
+   
+    width: 25px;
+    height: 25px;
+   margin: 0px 4px;
+}
+
